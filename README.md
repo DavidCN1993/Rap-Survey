@@ -75,13 +75,13 @@ The application performs the following analysis:
 
 Setup Instructions
 
-Clone the repository or download the files
+1. Clone the repository or download the files
 
-Ensure all files are in the same directory
+2. Ensure all files are in the same directory
 
-Open index.html in a web browser
+3. Open index.html in a web browser
 
-Optional: Set up a local server for development
+4. Optional: Set up a local server for development
 
 Browser Compatibility
 
