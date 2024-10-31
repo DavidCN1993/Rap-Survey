@@ -85,11 +85,16 @@ Setup Instructions
 
 Browser Compatibility
 
-The application is built using standard HTML5, CSS3, and ES6+ JavaScript features. Recommended browsers:
+The application is built using standard HTML5, CSS3, and ES6+ JavaScript features. 
+
+Recommended browsers:
 
 Chrome (latest)
+
 Firefox (latest)
+
 Safari (latest)
+
 Edge (latest)
 
 Potential features to be added:
