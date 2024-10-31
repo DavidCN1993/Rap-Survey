@@ -25,8 +25,6 @@ Features
 
 Technical Details
 
-HTML (index.html)
-
 - Semantic HTML5 structure
 
 - Responsive form elements
@@ -38,8 +36,6 @@ HTML (index.html)
 - Radio buttons for single-choice questions
 
 JavaScript (script.js)
-
-The script provides the following functionality:
 
 - Form submission handling
 
@@ -55,10 +51,6 @@ The script provides the following functionality:
 
 CSS (Rap-Survey.css)
 
-Note: CSS file needs to be created to style the application
-
-Recommended styling elements to include:
-
 - Responsive design
   
 - Form layout and spacing
@@ -70,8 +62,6 @@ Recommended styling elements to include:
 - Results display formatting
 
 - Validation feedback
-
-Analysis Features
 
 The application performs the following analysis:
 
@@ -101,8 +91,6 @@ Chrome (latest)
 Firefox (latest)
 Safari (latest)
 Edge (latest)
-
-Future Enhancements
 
 Potential features to be added:
 
