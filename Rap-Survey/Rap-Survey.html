@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rap Battle Survey</title>
+    <link rel="stylesheet" href="Rap-Survey.css">
+    <script defer src="Rap-Survey.js"></script>
+</head>
+<body>
+    <h1 id="title">Rap Battle Survey</h1>
+    <p id="description">Tell us who you think is the better rapper, which albums you enjoy, and answer a fun question at the end!</p>
+
+    <form id="survey-form">
+
+        <label id="name-label" for="name">Your Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+
+        <label id="email-label" for="email">Your Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+
+        <label id="number-label" for="number">Your Age:</label>
+        <input id="number" type="number" min="13" max="100" placeholder="Enter your age" required>
+
+        <label for="rapper">Who is the most formidable rapper?</label>
+        <select id="dropdown" name="rapper" required>
+            <option value="">Select an option</option>
+            <option value="kendrick-lamar">Kendrick Lamar</option>
+            <option value="j-cole">J. Cole</option>
+            <option value="drake">Drake</option>
+        </select>
+
+        <p>Select the albums you enjoy the most (you can choose multiple):</p>
+        <label>
+            <input type="checkbox" name="albums" value="damn"> Kendrick Lamar - DAMN
+        </label>
+        <label>
+            <input type="checkbox" name="albums" value="good-kid-maad-city"> Kendrick Lamar - Good Kid, M.A.A.D City
+        </label>
+        <label>
+            <input type="checkbox" name="albums" value="mr-morale"> Kendrick Lamar - Mr. Morale & the Big Steppers
+        </label>
+        <label>
+            <input type="checkbox" name="albums" value="forest-hills-drive"> J. Cole - 2014 Forest Hills Drive
+        </label>
+        <label>
+            <input type="checkbox" name="albums" value="kod"> J. Cole - KOD
+        </label>
+        <label>
+            <input type="checkbox" name="albums" value="off-season"> J. Cole - The Off-Season
+        </label>
+        <label>
+            <input type="checkbox" name="albums" value="take-care"> Drake - Take Care
+        </label>
+        <label>
+            <input type="checkbox" name="albums" value="scorpion"> Drake - Scorpion
+        </label>
+        <label>
+            <input type="checkbox" name="albums" value="her-loss"> Drake - Her Loss
+        </label>
+
+        <p>Which rapper would absolutely try to take your girl?</p>
+        <label>
+            <input type="radio" name="double-date" value="kendrick-lamar" required> Kendrick Lamar
+        </label>
+        <label>
+            <input type="radio" name="double-date" value="j-cole"> J. Cole
+        </label>
+        <label>
+            <input type="radio" name="double-date" value="drake"> Drake
+        </label>
+
+        <label for="comments">Any additional comments?</label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Enter your comments here"></textarea>
+
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>
